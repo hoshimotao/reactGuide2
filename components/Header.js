@@ -6,7 +6,7 @@ const Header = props => {
   return (
 
     <View style={styles.header}>
-<Text style={styles.headerTitle}> { props.title }</Text>
+<Text style={styles.headerTitle}> { props.title } </Text>
     </View>
   );
 }
@@ -22,6 +22,7 @@ const styles = StyleSheet.create({
     backgroundColor: '#f7287b',
     alignItems: 'center',
     justifyContent: 'center',
+    borderBottom: '1 solid black'
 
   },
 
