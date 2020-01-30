@@ -11,7 +11,7 @@ const StartGameScreen = props => {
 {/* User Input  */}
       <View style={styles.inputContainer}>
         <Text> Select a number </Text>
-        <TextInput />
+        <TextInput placeholder='Enter a number'/>
 
 
 {/* Buttons are next to each other */}
@@ -31,19 +31,24 @@ const styles = StyleSheet.create({
   screen: {
     flex: 1,
     padding: 10,
-    alignItems: "center",
-    
+    alignItems: "center",    
   },
-
   inputContainer: {
-
+    width: 300,
+    maxWidth: '80%',
+    alignItems: 'center'
   },
 
   buttonContainer: {
-
+    flexDirection: 'row',
+    width: '100%',
+    justifyContent: 'space-between',
+    paddingHorizontal: 15
   },
 
   title: {
+    fontSize: 20,
+    marginVertical: 10,
 
   }
 
