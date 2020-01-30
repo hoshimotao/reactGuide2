@@ -22,7 +22,8 @@ const styles = StyleSheet.create({
     backgroundColor: '#f7287b',
     alignItems: 'center',
     justifyContent: 'center',
-    borderBottom: '1 solid black'
+    borderWidth: 1,
+    borderColor: 'black',
 
   },
 
